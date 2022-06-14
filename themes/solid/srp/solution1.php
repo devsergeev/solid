@@ -2,6 +2,7 @@
 
 namespace solid\srp\solution;
 
+// наследование от Emploee (чтоб использовать общий конструктор и общие данные)
 class Emploee
 {
     protected int $hours;
