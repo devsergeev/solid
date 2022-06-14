@@ -1,6 +1,6 @@
 <?php
 
-namespace solid\srp\problem;
+namespace solid\ocp;
 
 use JetBrains\PhpStorm\Pure;
 

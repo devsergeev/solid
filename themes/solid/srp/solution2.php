@@ -1,6 +1,6 @@
 <?php
 
-namespace solid\srp\solution;
+namespace solid\srp;
 
 // делегирование + фасад, чтоб работать с объектом как раньше
 class Emploee

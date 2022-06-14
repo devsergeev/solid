@@ -1,6 +1,6 @@
 <?php
 
-namespace solid\srp\solution;
+namespace solid\srp;
 
 // наследование от Emploee (чтоб использовать общий конструктор и общие данные)
 class Emploee

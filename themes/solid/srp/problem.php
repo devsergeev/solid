@@ -1,6 +1,6 @@
 <?php
 
-namespace solid\srp\problem;
+namespace solid\srp;
 
 class Emploee
 {
