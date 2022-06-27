@@ -48,8 +48,7 @@ class Order
     public function calculateTotalSum(): float
     {
         $totalSum = 0;
-        foreach ($this->products as $product)
-        {
+        foreach ($this->products as $product) {
             $totalSum += $this->getPriceWithDiscount($product);
         }
         return $totalSum;
@@ -65,14 +64,11 @@ class Order
     #[Pure]
     private function getDiscountPercent(Product $product): float
     {
-
-        if ($product->getGroup() === "Линейки")
-        {
+        if ($product->getGroup() === "Линейки") {
             return 20;
         }
 
-        if ($product->getName() === "Сахар")
-        {
+        if ($product->getName() === "Сахар") {
             return 10;
         }
 
