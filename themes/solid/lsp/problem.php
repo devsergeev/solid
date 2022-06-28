@@ -2,8 +2,6 @@
 
 namespace solid\lsp;
 
-use JetBrains\PhpStorm\Pure;
-
 class Rectangle
 {
     protected int $heigth;
